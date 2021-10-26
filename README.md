@@ -1,5 +1,5 @@
 # Python_Notes
-This is my Python leaarning notes.
+This is my Python learning notes.
 
 一、数字
 
