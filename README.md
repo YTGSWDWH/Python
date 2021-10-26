@@ -59,7 +59,7 @@ This is my Python leaarning notes.
 	1.字典的排序
 	    1）sorted()对字典的键从小到大排序
 	    2）sorted(dict.values())对字典的值从小到大排序
-	    3）sorted(dict.items(),key=lambda x:x[1])返回元组组成的列表，其中x[0]是值，x[1]是键
+	    3）sorted(dict.items(),key=lambda x:x[1])返回元组组成的列表，其中x[0]是键，x[1]是值
 	    4）字典列表的排序：sorted(dict,key=lambda x:x[key])按照字典key对应的值进行从小到大排序
 	    5）有序字典：collections.OrderedDict()
 	    6）sorted(dict1.items(), key = lambda x:(x[1], x[0])) 对字典的值从小到大排序，然后对值相同的按键从小到大排序
