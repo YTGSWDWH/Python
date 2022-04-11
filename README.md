@@ -39,6 +39,7 @@ This is my Python learning notes.
 	    3）列表表达式：[ x for x in list if x ]
 	    4）将两个列表的元素组成一个列表表达式：[(x,y) for x in [1,2] for y in [2,3] if x!=y]
 	    5）嵌套列表表达式：[[row[i] for row in mat] for i in range(3)]
+	    6）定义一个初始化嵌套列表：mat = [[0] * m for _ in range(n)]
 	4.列表的复制
 	    1）不能用=，这样两个列表就是同一个列表
 	    2）要用list.copy()，这还只是浅拷贝
