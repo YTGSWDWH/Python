@@ -131,24 +131,27 @@ This is my Python learning notes.
 	24.私有变量：变量名前加双下划线，可以通过实例对象._类名__对象名来访问私有对象
 十、标准输入输出
 
-	1.从键盘读入一行：sys.stdin.readline().strip('\n')
+	1.从键盘读入一行：
+```python 
+	sys.stdin.readline().strip('\n')
+```
 	2.将读入的列表字符串转为列表：eval(str)；eval() 函数用来执行一个字符串表达式，并返回表达式的值
 	3.牛客网刷题输入输出:
 ```python
-		n = int(input())
-		data = []
-		for _ in range(n):
-			s = input()
-			if s != '':
-				tmp = [each for each in s.split()]
-				data.append(tmp)
-			else:
-				break
-		print(data)
+	n = int(input())
+	data = []
+	for _ in range(n):
+		s = input()
+		if s != '':
+			tmp = [each for each in s.split()]
+			data.append(tmp)
+		else:
+			break
+	print(data)
 
-		data = []
-		while True:
-			s = input()
-			data.append(list(map(str, input().split(''))))
-		print(data)
+	data = []
+	while True:
+		s = input()
+		data.append(list(map(str, input().split(''))))
+	print(data)
 ```
