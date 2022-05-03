@@ -139,7 +139,7 @@ This is my Python learning notes.
 		for _ in range(n):
 			s = input()
 			if s != '':
-				tmp = [j for j in s.split()]
+				tmp = [each for each in s.split()]
 				data.append(tmp)
 			else:
 				break
