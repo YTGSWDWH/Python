@@ -133,7 +133,8 @@ This is my Python learning notes.
 
 	1.从键盘读入一行：sys.stdin.readline().strip('\n')
 	2.将读入的列表字符串转为列表：eval(str)；eval() 函数用来执行一个字符串表达式，并返回表达式的值
-	3.牛客网刷题输入输出：
+	3.牛客网刷题输入输出:
+```python
 		n = int(input())
 		data = []
 		for _ in range(n):
@@ -150,3 +151,4 @@ This is my Python learning notes.
 			s = input()
 			data.append(list(map(str, input().split(''))))
 		print(data)
+```
