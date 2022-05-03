@@ -144,3 +144,9 @@ This is my Python learning notes.
 			else:
 				break
 		print(data)
+		
+		data = []
+		while True:
+			s = input()
+			data.append(list(map(str, input().split(''))))
+		print(data)
