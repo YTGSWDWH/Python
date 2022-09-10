@@ -21,8 +21,7 @@ l1 = list(map(int, input().split()))
 n = int(input())
 l1 = []
 for _ in range(n):
-  read_list = list(map(int, input().split()))
-  l1.append(read_list)
+  l1.append(list(map(int, input().split())))
 ```
 #### 行数未知
 ```python
