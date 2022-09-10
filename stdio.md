@@ -21,12 +21,8 @@ l1 = list(map(int, input().split()))
 n = int(input())
 l1 = []
 for _ in range(n):
-  s = input()
-  if s != '':
-    tmp = [j for j in s.split()]
-    l1.append(tmp)
-  else:
-    break
+  read_list = list(map(int, input().split()))
+  l1.append(read_list)
 ```
 #### 行数未知
 ```python
