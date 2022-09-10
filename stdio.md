@@ -1,4 +1,4 @@
-### 一行输入（字符串）
+## 一行输入（字符串）
 #### 两个字符串
 ```python
 a, b = input().split()
@@ -15,7 +15,7 @@ a, b = map(int, input().split())
 ```python
 l1 = list(map(int, input().split()))
 ```
-### 多行输入
+## 多行输入
 #### 行数已知
 ```python
 n = int(input())
