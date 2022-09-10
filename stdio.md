@@ -1,22 +1,22 @@
-## 一行输入（字符串）
-### 两个字符串
+### 一行输入（字符串）
+#### 两个字符串
 ```python
 a, b = input().split()
 ```
-### 多个字符串
+#### 多个字符串
 ```python
 l1 = list(input().split())
 ```
-### 两个数字
+#### 两个数字
 ```python
 a, b = map(int, input().split())
 ```
-### 多个数字
+#### 多个数字
 ```python
 l1 = list(map(int, input().split()))
 ```
-## 多行输入
-### 行数已知
+### 多行输入
+#### 行数已知
 ```python
 n = int(input())
 l1 = []
@@ -28,7 +28,7 @@ for _ in range(n):
   else:
     break
 ```
-### 行数未知
+#### 行数未知
 ```python
 l1 = []
 while 1:
