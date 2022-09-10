@@ -21,7 +21,7 @@ l1 = list(map(int, input().split()))
 n = int(input())
 l1 = []
 for _ in range(n):
-  l1.append(list(map(int, input().split())))
+  l1.append(list(map(int, input().split()))) （扩充到原列表使用extend）
 ```
 #### 行数未知
 ```python
