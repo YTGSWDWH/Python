@@ -33,3 +33,23 @@ while 1:
   else:
     break
 ```
+#### 生成排列，列表中得元素不允许重复出现
+```python
+from itertools import permutations
+ans = list(permutations(list1))
+```
+#### 生成排列，列表中得元素可以重复出现
+```python
+from itertools import product
+ans = list(product(list1, repeat=len(list1))
+```
+#### 生成组合，列表中的元素不允许重复出现
+```python
+from itertools import combinations
+ans = list(combinations(list1, i)
+```
+#### 生成组合，列表中的元素可以重复出现
+```python 
+from itertools import product
+ans = list(product(list1, repeat=i)
+```
